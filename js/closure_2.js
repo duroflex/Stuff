@@ -1,8 +1,7 @@
-
 /**
 	Dynamically create functions with common behaviour
 	
-	String property hidden from global scope
+	Open literal, with string property hidden from global scope
 */
 
 var closure = {};
@@ -30,5 +29,3 @@ closure.string = 'Hi I look like ';
 logConanFunc('The Cosmic Eel');
 
 closure.makeName('Dewey')('The Librarian');
-
-/**/

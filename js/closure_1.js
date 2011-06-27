@@ -1,7 +1,7 @@
 /**
 	Dynamically create functions with common behaviour
 	
-	String property writable from global scope
+	Prototype, with string property writable from global scope
 */
 
 function Closure (){};
@@ -32,5 +32,3 @@ Closure.prototype.string = 'Hi I look like ';
 logConanFunc('The Cosmic Eel');
 
 closure.makeName('Dewey')('The Librarian');
-
-/**/

@@ -1,7 +1,9 @@
 /**
 	Dynamically create functions with common behaviour
 	
-	Doesn't work - why?
+	Literal constructor with private properties.
+	
+	Doesn't work though... why?
 */
 
 var closure = function (name) {
@@ -30,5 +32,3 @@ var logConanFunc = closure().makeName('Skippy');
 logConanFunc('The Barbarian');
 
 closure().makeName('Dewey')('The Librarian');
-
-/**/
