@@ -15,10 +15,10 @@
 var closure = function () {
 	var string = 'Hi my name is ';
 	
-	var makeName = function greeting (name) {
+	var makeName = function makeName (name) {
 		name = (name || 'Conan');
 		
-		return function (lastName) {
+		return function greeting (lastName) {
 			console.log(string + name + ' ' + lastName);
 		};
 	}
